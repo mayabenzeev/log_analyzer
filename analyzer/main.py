@@ -1,7 +1,7 @@
 # main CLI implementation goes here
 import argparse
 
-from analyzer.analyzer import LogAnalyzer
+from analyzer.analyze_log import LogAnalyzer
 
 def main():
     parser = argparse.ArgumentParser()
