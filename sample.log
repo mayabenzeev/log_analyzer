@@ -1,0 +1,4 @@
+[2025-06-01 10:03:15] alice:INFO: Login succeeded
+[2025-06-01 10:04:12] bob:ERROR: Invalid password
+[2025-06-01 10:05:44] alice:WARNING: Disk almost full
+[2025-06-01 10:07:00] bob:INFO: Logout
