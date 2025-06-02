@@ -13,6 +13,9 @@ class LogAnalyzer:
 
         with open(self.log_file_path, 'r') as file:
             self.logs = file.readlines()
+        if not self.logs:
+            print("No logs found in the file")
+            return
 
         if self.report_type == 'summary':
             return self.generate_summary_report()
